@@ -1,9 +1,19 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Consolas", monospace;
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     line-height: 1.6;
+}
+
+/* Make all links black */
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 nav {
